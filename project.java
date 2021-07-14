@@ -8,7 +8,7 @@ public class project {
         
      while(true)
      {
-          System.out.print("Enter the pin: ");
+          System.out.print("Enter the PIN: ");
           int r=sc.nextInt();
           
           if(r==1234)
