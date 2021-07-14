@@ -9,16 +9,16 @@ public class project {
      while(true)
      {
           System.out.print("Enter the PIN: ");
-          int r=sc.nextInt();
+          int pin=sc.nextInt();
           
-          if(r==1234)
+          if(pin==1234)
           {
               System.out.println("Unlocked");
               break;
           }
           else
               
-              System.out.println("Invlid Try Again");
+              System.out.println("Invalid Try Again");
      }
      
     }
